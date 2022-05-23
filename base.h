@@ -32,9 +32,7 @@ private:
 	/*tertiary character stats
 	only few characters will have one or more of these stats*/
 	int range;
-	double physVamp; //percentage of physical damage that heals
-	double magVamp; //percentage of magic damage that heals
-	double omniVamp; //percentage of ANY damage that heals
+	double trueVamp; //percentage of damage that heals
 };
 
 //arush
